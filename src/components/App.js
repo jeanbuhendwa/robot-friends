@@ -30,7 +30,7 @@ class App extends Component {
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     });
     return (
-      <div className="tc mh3">
+      <div className="tc mh4">
         <svg xmlns="http://www.w3.org/2000/svg">
           <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
             <feGaussianBlur stdDeviation="100 0"></feGaussianBlur>
