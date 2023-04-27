@@ -36,7 +36,7 @@ class App extends Component {
             <feGaussianBlur stdDeviation="100 0"></feGaussianBlur>
           </filter>
         </svg>
-        <span filter-content="S">Robots Friends</span>
+        <span filter-content="S">Robot Friends</span>
         <SearchBox searchChange={this.onSearchChange} />
         <CardList robots={filteredRobot} />
       </div>
